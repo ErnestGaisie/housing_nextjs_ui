@@ -6,19 +6,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="flex flex-col min-h-screen bg-gray-50">
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold text-primary flex items-center">
+          <Link href="/" className="text-2xl font-bold text-primary flex items-center mulishFont">
             <Home className="mr-2" />
             House Prediction App
           </Link>
-          <nav>
-            <Link href="/" className="mr-4 hover:text-primary transition-colors">
+          {/* <nav>
+            <Link href="/" className="mr-4 hover:text-primary transition-colors mulishFont">
               Home
             </Link>
             <Link href="/listings" className="hover:text-primary transition-colors flex items-center">
               <List className="mr-1" />
               Listings
             </Link>
-          </nav>
+          </nav> */}
         </div>
       </header>
       <main className="flex-grow container mx-auto px-4 py-8">

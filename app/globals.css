@@ -4,3 +4,58 @@
 
 /* You can add any global styles below this line */
 
+@font-face {
+  font-family: "Kannada";
+  src: url("/fonts/Kannada MN/Kannada MN.ttc") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.kannadaFont {
+  font-family: "Kannada", sans-serif;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/static/Inter_18pt-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.interFont {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("/fonts/Mulish/static/Mulish-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.mulishFont {
+  font-family: "Mulish", sans-serif;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.poppinsFont {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PublicSans";
+  src: url("/fonts/Public_Sans/static/PublicSans-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.publicSansFont {
+  font-family: "PublicSans", sans-serif;
+  font-weight: normal;
+}

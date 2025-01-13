@@ -217,7 +217,7 @@ export default function PropertyDetails() {
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {cheaperLocations.cheaper_locations.map((location, index) => (
-                  <div key={index} className="bg-secondary text-secondary-foreground rounded-md p-2 flex items-center justify-center text-center">
+                  <div key={index} className="bg-secondary text-secondary-foreground rounded-md p-2 flex items-center justify-start text-start">
                     <MapPin className="h-4 w-4 mr-2" />
                     <span>{location}</span>
                   </div>

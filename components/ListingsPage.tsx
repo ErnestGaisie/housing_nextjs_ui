@@ -36,8 +36,8 @@ export default function ListingsPage() {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h1 className="text-3xl font-bold">Property Listings</h1>
-        <p className="text-gray-600">
+        <h1 className="text-3xl font-bold mulishFont">Property Listings</h1>
+        <p className="text-gray-600 mulishFont">
           Showing results for: {userDetails.Bedrooms} bd, {userDetails.Bathrooms} ba, {userDetails.Type} in {userDetails.Location}
         </p>
       </div>
